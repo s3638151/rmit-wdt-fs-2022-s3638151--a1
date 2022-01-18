@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Database\" />
+    <None Remove="System.Data.SqlClient" />
+    <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Models\" />
+    <None Remove="Utilities\" />
+    <None Remove="Microsoft.Data.SqlClient" />
+    <None Remove="Sql\" />
+    <None Remove="Microsoft.Extensions.Configuration" />
+    <None Remove="Microsoft.Extensions.Configuration.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Sql\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="SimpleHashing" Version="2.0.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+    <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sql\CreateTables.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+  
+</Project>

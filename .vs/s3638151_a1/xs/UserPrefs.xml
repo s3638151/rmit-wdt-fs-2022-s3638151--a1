@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{044D3194-EB4A-4AC1-A220-8B7433ACF6E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="s3638151_a1/Services/RestApiRequest.cs">
+    <Files>
+      <File FileName="s3638151_a1/Database/LoginData.cs" Line="73" Column="1" />
+      <File FileName="s3638151_a1/Database/TransactionData.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Sql/CreateTables.sql" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Utilities/MiscellaneousExtensionUtilities.cs" Line="15" Column="29" />
+      <File FileName="s3638151_a1/Models/Customer.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Models/Account.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Menu.cs" Line="23" Column="22" />
+      <File FileName="s3638151_a1/Database/AccountData.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Database/CustomerData.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Database/DatabaseManager.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/appsettings.json" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Services/RestApiRequest.cs" Line="22" Column="45" />
+      <File FileName="s3638151_a1/Models/Transaction.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/s3638151_a1.csproj" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Database/SqlHelper.cs" Line="1" Column="1" />
+      <File FileName="s3638151_a1/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="s3638151_a1" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.s3638151__a1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
